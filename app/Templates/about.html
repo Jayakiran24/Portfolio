@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content1 %}
+<div class="row muy-5">
+    <div class="col-4 d-flex justify-content-center align-items-center">
+        <img src="{% static 'images/img2.jpg' %}" alt="about-image" class="about-img">
+    </div>
+    <div class="col-7 text-left text-light img-theory" >
+          <h2> Hello !</h2>
+          <p class="fs-5">
+            I am a skilled Python Full Stack Developer with expertise in Python, Django, HTML, CSS, JavaScript, and SQL. I have completed a Full Stack Development course at Pyspiders, where I gained hands-on experience with web frameworks, databases, and responsive design. While I haven't yet worked on a Full Stack project, I am eager to develop scalable and user-friendly web applications. My passion for coding and problem-solving drives me to continuously improve and explore new technologies in web development.
+          </p>
+          <p class="fs-5">
+            In addition to Full Stack Development, I have a strong interest in Data Science. I have trained in data manipulation, analysis, and visualization using Pandas, NumPy, and Matplotlib. My project on Phishing URL Detection using Machine Learning demonstrates my ability to apply AI-driven solutions to real-world challenges. I am keen on expanding my expertise in machine learning and data analytics to contribute to AI and predictive modeling.
+          </p>
+    </div>
+</div>
+<div class="row my-2">
+    <h2 class="my-stack">My Tech Stack</h2>
+    <div class="image-apart">
+    <img src="{% static 'images/html.jpg' %}" alt="html" class="image-about">
+    <img src="{% static 'images/css.jpg' %}" alt="cssimage" class="image-about">
+    <img src="{% static 'images/js.jpg' %}" alt="html" class="image-about">
+    <img src="{% static 'images/sql.jpg' %}" alt="imagesql" class="image-about">
+    <img src="{% static 'images/python.jpg' %}" alt="image" class="image-about">
+    <img src="{% static 'images/django.jpg' %}" alt="html" class="image-about">
+    <img src="{% static 'images/num.jpg' %}" alt="html" class="image-about">
+
+  </div>
+</div>
+
+{% endblock content1 %}

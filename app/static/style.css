@@ -1,0 +1,118 @@
+body{
+    background-color:rgb(20,0,30) ;
+}
+.navbar-nav .nav-link:hover{
+    font-weight:bold;
+    color:green; 
+}
+.navbar-nav .nav-link{
+    font-size: 20px;
+}
+.navbar-brand{
+    font-size: 25px;
+    padding-right: 240px;
+}
+.navbar-dark{
+    background-color:rgb(18,1,46) ;
+}
+.nav-item{
+    padding-left: 20px;
+}
+.circular-image-container{
+    height: 240px;
+    width:240px;
+    overflow:hidden;
+    border-radius: 50%;
+
+    border: 2px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+.circular-image{
+    width: 120%;
+    height: auto;
+    display: block;
+
+}
+.title{
+     color: gray;
+}
+.name{
+    color: white;
+}
+.linkedin-img{
+    height: 50;
+    width: 50;
+}
+.social{
+    width: 50px;
+    height: 50px;
+    overflow:hidden;
+    border-radius: 50%;
+    
+    border: 2px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+
+/* ABOUT PAGE */
+
+.about-img{
+   width: 300px;
+   height: 300px;
+   border-radius: 100%;
+   margin-top: 50px;
+   margin-left: 50px;
+   
+}
+.img-theory{
+    margin-top: 50px;
+}
+.my-stack{
+    color:#4fffb0;
+    text-align: center;
+    margin-top: 10px;
+}
+.image-apart{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    overflow: hidden;
+    
+}
+.image-about{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border:2px solid  #4fffb0;
+    margin-top: 40px;
+    
+}
+
+.img-p{
+    padding-left: 124px;
+}
+.prj-head{
+    color: #ccc;
+}
+.project_img{
+    height: 300px;
+    width: 500px;
+}
+
+/*-------------------------- conact-------------------------- */
+
+.form-container{
+    width: 500px;
+    border: 2px sloid white;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ccc;
+    align-items: center;
+}
+.contact-head{
+    margin-left: 80px;
+    margin-top: 50px;
+}

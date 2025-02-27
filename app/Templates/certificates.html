@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% load static %}
+{%block content1 %}
+<div class="row my-2">
+    {% for certificate in certificate_show %}
+<div class="col-6 my-3  img-p" >
+    <h4 class="prj-head">{{ certificate.title }}</h4>
+    <img  src="{% static certificate.path %}" alt=""  class="project_img" >
+</div>
+    {% endfor %}
+</div>
+<h1>Certificates</h1>
+
+{% endblock content1 %}

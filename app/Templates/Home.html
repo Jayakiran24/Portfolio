@@ -1,0 +1,34 @@
+{% extends 'base.html'%}
+{% load static %}
+{% block content1 %}
+<div class="row my-5">
+    <div class="col-12 d-flex justify-content-center align-items-center ">
+        <div class="circular-image-container">
+            <img class="circular-image" src="{% static '/images/img2.jpg' %}" alt="image">
+        </div>
+    </div>
+
+
+    <div class="col-12 text-center ">
+        <h4 class="title"> Hi, my name is </h4>
+        <div class="name">
+            <h1> Jaya kiran Sudanagunta </h1>
+            <h2> I am Full stack Developer</h2>
+        </div>
+    </div>
+    <div class="col-12 text-center mt-3">
+        <div class="d-flex justify-content-center align-items-center" >
+            <a href="https://www.linkedin.com/in/jaya-kiran-sudanagunta" target="_blank" class="ms-3">
+                <img  src="{% static '/images/linkedin2.jpg' %}" alt="image"  class="social">
+            </a>
+            <a href="" target="_blank" class="ms-3">
+                <img src="" alt="">
+            </a>
+            <a href="https://www.instagram.com/jayakiran_08?igsh=MWtxMmpqaHd0anI3YQ==" target="_blank" class="ms-3">
+                <img src="{% static '/images/insta.jpg' %}" alt="insta" class="social">
+            </a>
+        </div>
+    </div>
+
+</div>
+{% endblock content1 %}
